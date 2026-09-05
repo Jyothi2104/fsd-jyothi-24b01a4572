@@ -1,0 +1,34 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+</head>
+
+<body>
+
+    <h2>Account Login</h2>
+
+    <div>
+        <%= message %>
+    </div>
+
+    <form action="/login" method="POST">
+
+        <label for="user">Enter Username:</label>
+        <input type="text" id="user" name="username" required>
+
+        <br><br>
+
+        <label for="pass">Enter Password:</label>
+        <input type="password" id="pass" name="password" required>
+
+        <br><br>
+
+        <input type="submit" value="Sign In">
+
+    </form>
+
+</body>
+</html>
+```
